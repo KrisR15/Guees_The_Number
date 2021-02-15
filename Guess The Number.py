@@ -1,8 +1,8 @@
 from random import randint
 
-print("The aim of the game is to guess the randomly generated number that is between 1 and 100.")
+print("The aim of the game is to guess the randomly generated number that is between 1 and 1000.")
 
-target = randint(1,101)
+target = randint(1,1001)
 guess = int(input("What is your first guess? \n \n"))
 guess_list=[]
 
